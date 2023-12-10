@@ -1,3 +1,5 @@
 web3
 asyncio
 http.client
+python-dotenv
+requests

@@ -1,7 +1,9 @@
-from web3 import Web3
-import asyncio
-import http.client
 import os
+import http.client
+import asyncio
+from web3 import Web3
+from dotenv import load_dotenv
+load_dotenv()
 
 nodeURL = nodeURL = os.getenv('NODE_URL')
 # nodeURL = "https://divine-purple-meme.ethereum-sepolia.quiknode.pro/d16e5f08e165557d51cee73bd8ff9dfe1412a8ee/"
